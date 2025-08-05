@@ -24,7 +24,8 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
   position: relative;
   animation: fadeIn 0.3s ease-out;
-  color: #a5d6a7; /* greenish text */
+  color: #a5d6a7;
+  /* greenish text */
 }
 
 /* Fade-in animation */
@@ -33,6 +34,7 @@
     opacity: 0;
     transform: scale(0.9);
   }
+
   to {
     opacity: 1;
     transform: scale(1);
@@ -48,7 +50,8 @@
   border: none;
   background: transparent;
   cursor: pointer;
-  color: #81c784; /* medium green */
+  color: #81c784;
+  /* medium green */
   line-height: 1;
 }
 
